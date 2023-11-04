@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+.h1 {
+    @apply text-[35px] leading-tight md:text-[60px] md:leading-[1.3] mb-8 font-semibold;
+}
+
+.h2 {
+    @apply text-[35px] leading-tight md:text-[54px] md:leading-[1.3] mb-4 font-semibold;
+}
+
+.h3 {
+    @apply text-[22px] leading-tight md:text-[35px] md:leading-[1.3] mb-4 font-semibold;
+}
+
+p {
+    @apply leading-[1.8] text-white font-light;
+}
+
+.btn {
+    @apply h-[52px] bg-gradient-to-br from-[#511C2D] to-red-800;
+}
+
+.btn:hover {
+    background: red;
+}
+
+.input {
+    @apply h-[52px];
+}
+
+.input {
+    @apply w-full h-[52px] rounded-lg pl-6 capitalize;
+}
+
+.input,
+.textarea {
+    @apply bg-transparent outline-none focus:ring-1 focus:ring-accent border border-white/20 placeholder:text-white/30 placeholder:font-light;
+}
+
+.textarea {
+    @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
+}
+
+/* .active {
+    display: flex;
+    position: relative;
+    top: -5px;
+    height: 40px;
+    width: fit-content;
+    align-items: center;
+    padding: 0 5px;
+    border-radius: 20px;
+    background-color: #511C2D;
+} */
+
+.profile-img {
+    height: 300px;
+
+    @media screen and (min-width: 768px) {
+        height: 500px;
+    }
+}
+
+.circle {
+    box-shadow:
+        inset 0 0 10px rgba(0, 0, 0, 0.5),
+        inset 0 -10px 20px rgba(0, 0, 0, 0.5),
+        0 15px 30px 30px rgba(0, 0, 0, 0.7);
+    width: 66%;
+
+    @media screen and (min-width: 768px) {
+        width: 500px;
+    }
+}
+
+#bar {
+    background-image: linear-gradient(to right, #511C2D 0%, black 50%, #511C2D 100%);
+    height: 100px;
+
+    @media screen and (min-width: 768px) {
+        height: 128px;
+    }
+}
+
+#bar2 {
+    background-image: linear-gradient(to right, #511C2D 0%, black 50%, #511C2D 100%);
+    height: 120px;
+
+    @media screen and (min-width: 768px) {
+        height: 140px;
+    }
+}
+
+.description {
+    width: fit-content;
+    margin: 0 15px;
+
+    @media screen and (min-width: 768px) {
+        width: 33%;
+        margin: 0 auto
+    }
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.carousel-container {
+    width: 820px;
+    height: 390px;
+    position: relative;
+    border: 1px solid gray;
+    padding: 20px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.slide {
+    /* Define slide styling here */
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.indicators {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.indicator.active {
+    background-color: blue;
+}
+
+/* Style the scrollbar */
+.scrollEdited::-webkit-scrollbar {
+    width: 10px;
+    /* Adjust width for vertical scrollbars */
+}
+
+/* Handle */
+.scrollEdited::-webkit-scrollbar-thumb {
+    background: #511C2D;
+    border-radius: 4px;
+    /* roundness of the scroll thumb */
+}
+
+/* Handle on hover */
+.scrollEdited::-webkit-scrollbar-thumb:hover {
+    background: black;
+}
+
+.video-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #511C2D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}

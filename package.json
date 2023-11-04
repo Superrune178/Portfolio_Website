@@ -1,0 +1,40 @@
+{
+  "name": "my-portfolio-v1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@material-tailwind/react": "^2.1.4",
+    "@mui/material": "^5.14.14",
+    "@next/font": "^13.5.6",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "framer-motion": "^10.16.4",
+    "next": "^13.5.6",
+    "pdfjs-dist": "^3.4.120",
+    "react": "^18.2.0",
+    "react-countup": "^6.4.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-tsparticles": "^2.12.2",
+    "swiper": "^10.3.1",
+    "tailwind-scrollbar": "^3.0.5",
+    "tsparticles": "^2.12.0"
+  },
+  "devDependencies": {
+    "@shrutibalasa/tailwind-grid-auto-fit": "^1.1.0",
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.6",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}
