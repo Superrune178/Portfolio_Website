@@ -3,8 +3,7 @@ import Navbar from '@/components/Navbar';
 import AboutSection from '@/components/AboutSection';
 import HomeSection from '@/components/HomeSection';
 import ProjectSection from '@/components/ProjectSection';
-import ContactSection from '@/components/contactSection';
-import ExperianceSection from '@/components/experianceSection';
+import ContactSection from '@/components/ContactSection';
 
 
 export default function Home() {
