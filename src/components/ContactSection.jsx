@@ -28,4 +28,6 @@ const ContactSection = forwardRef((props, ref) => {
     );
 });
 
+ContactSection.displayName = 'ContactSection';
+
 export default ContactSection;

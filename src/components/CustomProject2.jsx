@@ -22,7 +22,7 @@ function CustomProject2() {
                     Facial Recognition System
                 </div>
                 <div className=''>
-                    This application is a facial recognition system designed to deliver high-precision identity verification. This powerful system integrates OpenCV's computer vision capabilities, the face_recognition library, and PySimpleGUI for a user-friendly interface. With a 99% accuracy rate, this app excels in identifying 'known' users by cross-referencing facial features with a database of reference images and individual information. Key Features:
+                    This application is a facial recognition system designed to deliver high-precision identity verification. This powerful system integrates OpenCV&apos;s computer vision capabilities, the face_recognition library, and PySimpleGUI for a user-friendly interface. With a 99% accuracy rate, this app excels in identifying &apos;known&apos; users by cross-referencing facial features with a database of reference images and individual information. Key Features:
                 </div>
                 <ul className='list-disc ml-2 mr-2 sm:ml-8 sm:mr-2'>
                     <li className='list-item'>Rapid and accurate identification against comprehensive data of users.</li>

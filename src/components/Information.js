@@ -8,10 +8,10 @@ function Information() {
                     About Me
                 </div>
                 <div className='mb-3 text-lg'>
-                    Hey there! I'm Rounald Andrawes, a tech enthusiast living in Toronto, ON, Canada. Originally I'm from Egypt, I've called Canada home for over 15 years now. My journey into the world of coding began in grade 11 during a Computer Science course, and I've been hooked ever since.
+                    Hey there! I&apos;m Rounald Andrawes, a tech enthusiast living in Toronto, ON, Canada. Originally I&apos;m from Egypt, I&apos;ve called Canada home for over 15 years now. My journey into the world of coding began in grade 11 during a Computer Science course, and I&apos;ve been hooked ever since.
                 </div>
                 <div className='text-lg'>
-                    When I'm not diving deep into code, you'll probably find me taking care of my body at the gym, in a thrilling video game, or playing a fierce match of volleyball, tennis, or soccer. Being the eldest of three boys, I've naturally cultivated a sense of responsibility and leadership over the years. This translates well into my professional life too, as I thoroughly enjoy collaborating within a team and directly with clients. Looking forward to creating something great together!
+                    When I&apos;m not diving deep into code, you&apos;ll probably find me taking care of my body at the gym, in a thrilling video game, or playing a fierce match of volleyball, tennis, or soccer. Being the eldest of three boys, I&apos;ve naturally cultivated a sense of responsibility and leadership over the years. This translates well into my professional life too, as I thoroughly enjoy collaborating within a team and directly with clients. Looking forward to creating something great together!
                 </div>
             </div>
             <div className='col-span-1'>

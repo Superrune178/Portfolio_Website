@@ -38,7 +38,7 @@ const HomeSection = forwardRef((props, ref) => {
                     Hi! I am Rounald
                 </div>
                 <p className='description'>
-                    I'm a passionate Full Stack Web Developer based in Toronto, Ontario, with expertise in the MERN stack. Beyond my proficiency with MongoDB, Express, React, and Node.js, I also bring to the table hands-on experience with Python. I craft dynamic and responsive web solutions tailored to your needs. Currently on the lookout for a full-time developer position, I'm eager to contribute to a team that values innovative thinking and top-tier web development. Let's build something great together!
+                    I&apos;m a passionate Full Stack Web Developer based in Toronto, Ontario, with expertise in the MERN stack. Beyond my proficiency with MongoDB, Express, React, and Node.js, I also bring to the table hands-on experience with Python. I craft dynamic and responsive web solutions tailored to your needs. Currently on the lookout for a full-time developer position, I&apos;m eager to contribute to a team that values innovative thinking and top-tier web development. Let&apos;s build something great together!
                 </p>
             </div>
             <div className='flex justify-center mt-4 gap-4'>
@@ -58,5 +58,7 @@ const HomeSection = forwardRef((props, ref) => {
         </div>
     );
 });
+
+HomeSection.displayName = 'HomeSection';
 
 export default HomeSection;

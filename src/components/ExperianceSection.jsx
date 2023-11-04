@@ -6,4 +6,6 @@ const ExperianceSection = forwardRef((props, ref) => {
     );
 });
 
+ExperianceSection.displayName = 'ExperianceSection';
+
 export default ExperianceSection;

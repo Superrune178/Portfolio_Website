@@ -57,4 +57,6 @@ const ProjectSection = forwardRef((props, ref) => {
     );
 });
 
+ProjectSection.displayName = 'ProjectSection';
+
 export default ProjectSection;
