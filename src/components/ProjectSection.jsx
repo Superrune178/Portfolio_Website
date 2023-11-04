@@ -23,7 +23,7 @@ const ProjectSection = forwardRef((props, ref) => {
         <div className='grid grid-cols-1 gap-8 py-36 bg-black h-fit text-white ' ref={ref}>
             <Projects
                 image="techommerce.png"
-                link={"https://tech-ommerce-ao9jz9a7g-ron-dev.vercel.app/"}
+                link={"https://tech-ommerce.vercel.app/"}
                 github={"https://github.com/Superrune178/Tech-ommerce"}
                 title="Tech-Ommerce"
                 stack={techommerce.stack}

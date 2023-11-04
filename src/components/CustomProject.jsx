@@ -28,7 +28,7 @@ function CustomProject() {
                     ))}
                 </div>
                 <div className='text-2xl text-red-700'>
-                    Unfortunately, do to a recent yfinance library update, some of the functions of the library are temporarily down. For that reason, I will not be linking the live website since the project does not currently work. I hope the video provides enough of a demonstration. Thank You!
+                    Unfortunately, due to a recent yfinance library update, some of the functions of the library are temporarily down. For that reason, I will not be linking the live website since the project does not currently work. I hope the video provides enough of a demonstration. Thank You!
                 </div>
             </div>
             <div className='grid grid-cols-1'>
