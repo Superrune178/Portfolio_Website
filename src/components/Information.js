@@ -15,7 +15,7 @@ function Information() {
                 </div>
             </div>
             <div className='col-span-1'>
-                <img src='/About_img.jpg' className='w-3/4 h-auto m-auto rounded-xl' />
+                <img src='/About_img.png' className='w-3/4 h-auto m-auto rounded-xl' />
             </div>
         </div>
     )
