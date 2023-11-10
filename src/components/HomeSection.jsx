@@ -4,7 +4,6 @@ import React, { useState, forwardRef } from 'react';
 
 const HomeSection = forwardRef((props, ref) => {
 
-    const [showPDF, setShowPDF] = useState(false)
     const { sectionRefs } = props;
     const scrollToSection = (sectionRef) => {
         if (sectionRef.current) {
@@ -16,8 +15,7 @@ const HomeSection = forwardRef((props, ref) => {
     }
 
     function handleClick() {
-        setShowPDF(true);
-        document.body.style.overflow = 'hidden';
+        window.open('/Rounald_Andrawes_Software_Resume.pdf', '_blank');
     }
 
     return (
@@ -54,7 +52,6 @@ const HomeSection = forwardRef((props, ref) => {
                     className='flex btn bg-accent rounded-2xl px-4 py-[10px] lg:text-xl sm:text-lg'
                 >Contact</a>
             </div>
-            {showPDF ? <PopupModel isOpen={showPDF} setIsOpen={setShowPDF} /> : null}
         </div>
     );
 });
