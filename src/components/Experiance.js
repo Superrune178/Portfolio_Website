@@ -18,7 +18,6 @@ const data = [
             "Design and Analysis of Algorithms",
             "Embedded Systems",
             "Distributed Systems"],
-        description2: ["3.44 GPA"]
     },
     {
         id: 2,
@@ -73,11 +72,6 @@ function Experiance() {
                     <div className='grid grid-cols-1 sm:grid-cols-3 border border-t-0 border-l-0 mb-3 ml-2 mr-2 sm:ml-8 sm:mr-2'>
                         {slideData.description.map(item => (
                             <div className='border px-1' key={item}>{item}</div>
-                        ))}
-                    </div>
-                    <div>
-                        {slideData.description2.map(item => (
-                            <div className='' key={item}>{item}</div>
                         ))}
                     </div>
                 </div>)
